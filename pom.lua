@@ -62,7 +62,7 @@ local function shellAssign(sh, var, val)
 end
 
 function printHelp()
-	print("Pom - a shell based, C, binary-only build system")
+	print("Pom - a shell based, C, binary-only build script generator")
 	print("Usage: ./pom.lua var=val")
 	print("\tpom.lua will create a build.sh file by reading $rules and provide the following env variables")
 	print("\tCC (C compiler), RULES (its own filename), SHELL (the shell used), BINARY (the binary's name)")
